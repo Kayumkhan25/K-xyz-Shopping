@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+
+/* Breakpoints */
+
+
+/* For small devices */
+
+@media screen and (max-width: 420px) {
+    .product {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .box_bottom {
+        gap: 10px;
+    }
+    .btn_text {
+        font-size: 10px;
+        line-height: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .cart_direction {
+        flex-direction: column;
+    }
+    .cart {
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .one_cart {
+        flex-direction: column;
+        padding: 0.75rem;
+    }
+}
+
+
+/* For medium devices */
+
+@media screen and (min-width: 421px) {
+    .product {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .box_bottom {
+        gap: 20px;
+    }
+    .btn_text {
+        font-size: 10px;
+        line-height: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .cart_direction {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .product {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .box_bottom {
+        gap: 20px;
+    }
+    .btn_text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .cart_item {
+        width: 60%;
+    }
+    .summary {
+        width: 40%;
+    }
+    .cart_direction {
+        flex-direction: row;
+    }
+    .one_cart {
+        flex-direction: row;
+        padding: 0.75rem;
+    }
+    .cart_description {
+        margin-left: 2.5rem;
+        width: 70%;
+    }
+}
+
+
+/* For Large Devices */
+
+@media screen and (min-width: 1023px) {
+    .product {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .box_bottom {
+        gap: 25px;
+    }
+    .cart_item {
+        width: 60%;
+    }
+    .summary {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .product {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .box_bottom {
+        gap: 40px;
+    }
+}
