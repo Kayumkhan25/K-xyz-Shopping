@@ -57,20 +57,6 @@ export const products = [
   {
     id: 5,
     title:
-      "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-    price: 114,
-    description:
-      "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-    category: "electronics",
-    image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    rating: {
-      rate: 4.8,
-      count: 400,
-    },
-  },
-  {
-    id: 6,
-    title:
       "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
     price: 695,
     description:
@@ -83,7 +69,7 @@ export const products = [
     },
   },
   {
-    id: 7,
+    id: 6,
     title: "Solid Gold Petite Micropave ",
     price: 168,
     description:
@@ -96,7 +82,7 @@ export const products = [
     },
   },
   {
-    id: 8,
+    id: 7,
     title: "White Gold Plated Princess",
     price: 9.99,
     description:
@@ -109,7 +95,7 @@ export const products = [
     },
   },
   {
-    id: 9,
+    id: 8,
     title: "Pierced Owl Rose Gold Plated Stainless Steel Double",
     price: 10.99,
     description:
@@ -122,7 +108,7 @@ export const products = [
     },
   },
   {
-    id: 10,
+    id: 9,
     title: "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
     price: 64,
     description:
@@ -132,6 +118,20 @@ export const products = [
     rating: {
       rate: 3.3,
       count: 203,
+    },
+  },
+  {
+    id: 10,
+    title:
+      "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+    price: 114,
+    description:
+      "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+    category: "electronics",
+    image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+    rating: {
+      rate: 4.8,
+      count: 400,
     },
   },
   {
