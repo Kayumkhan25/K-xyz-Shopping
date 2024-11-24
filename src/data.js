@@ -121,7 +121,8 @@ export const products = [
     },
   },
   {
-    id: 10,
+    id: 10
+    ,
     title:
       "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
     price: 114,
