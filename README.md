@@ -1,6 +1,6 @@
 
 ### 🛍️K-xyz Shopping
- [Live Demo](https://k-xyz-shopping.vercel.app)
+    [Live Demo](https://k-xyz-shopping.vercel.app)
 
 > A dynamic and responsive e-commerce web app
 > **Tech Stack:** React.js, Redux, Tailwind CSS
